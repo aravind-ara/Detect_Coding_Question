@@ -1,0 +1,38 @@
+Problem Statement for Python Application Developer
+
+Below is your problem statement to solve which is a part of the technical round interview for the Python Application Developer role.
+
+Problem statement:
+
+Develop an algorithm using python-3 that will take two inputs,
+
+Input 1: A sentence in string format
+Input 2: A text file (*.txt) with a list of sentences
+
+compares input 1 with all sentences in Input 2 and returns the most synonymically suitable sentence from Input 2.
+
+Add necessary boundary/fail-safe conditions and validation to make the same robust, package as an application with GUI. Revert this mail with a zip file containing the software package, source code, and other relevant files.
+
+
+Sample Output:
+Input 1: HC:Unsafe condition: Access not provided in the excavation for ingress/egress
+Input 2: HC:Unsafe condition: Excavation access not provided
+Output: HC:Unsafe condition: No access for ingress/egress
+
+
+
+Input 1: -	 
+Input 2: HC:Unsafe environment: No access for is provided in the excavation
+Output: -
+
+Input 1:
+Input 2: HC:Unsafe condition: Entry and exit is not provided
+Output: 
+
+Input 1: -	 
+Input 2: HC:Unsafe condition: No access for ingress/egress is provided in the excavation	
+Output: -
+
+Input 1: -	 
+Input 2: HC:Unsafe condition:No access for ingress/egress		
+Output: -
